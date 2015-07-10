@@ -1,0 +1,156 @@
+
+/**
+ * Header Layout
+ * ------------- */
+
+header {
+  .navbar {
+    margin-bottom: 0;
+    .navbar-brand {
+      img {
+        height: 21px;
+        vertical-align: top;
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.masthead {
+
+  color: #fff !important;
+  text-align: left;
+
+  .dropdown-menu {
+    z-index: 2000;
+  }
+
+  .masthead-outer {
+    background-image: url("/img/masthead.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .masthead-inner {
+      padding: 60px 0;
+      width: 100%;
+      height: 100%;
+
+      &.darken {
+        background-color: rgba(0,0,0,0.3);
+        padding: 100px 0;
+      }
+
+      h1, h2 {
+        color: #ffffff;
+
+      }
+      h1 {
+        font-size: 70px;
+        font-weight: bold;
+        display: inline-block;
+        margin-bottom: 0;
+      }
+      h2 {
+        font-size: 40px;
+        margin-bottom: 30px;
+      }
+
+      .logo {
+        text-align: center;
+        h1{
+          font-family: 'captured_it','captured_it_2', sans-serif;
+          font-weight: normal;
+          font-size: 75px;
+        }
+      }
+
+      button {
+        border-radius: 9999px;
+        padding: 15px 35px;
+        background: none;
+        border: 2px solid;
+        font-size: 15px;
+        text-transform: uppercase;
+      }
+    }
+
+  }
+
+}
+
+
+
+/**
+ * Footer Layout
+ * ------------- */
+
+footer {
+  padding: 20px 0 20px;
+  hr {
+    margin-bottom: 40px;
+  }
+}
+
+
+
+/**
+ * Custom Layout
+ * ------------- */
+
+hr.branded {
+  border-top: 5px solid $brand-primary;
+}
+
+
+/**
+ * Home Layout
+ * ----------- */
+
+.home {
+  .thumbnail {
+    .caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 30px 40px;
+      text-align: left;
+      width: 100%;
+      h3 {
+        color: #fff;
+      }
+      hr.branded {
+        border-top: 5px solid #ffffff;
+      }
+      &:hover {
+        h3 {
+          color: $brand-primary;
+        }
+        hr.branded {
+          border-top: 5px solid $brand-primary;
+        }
+      }
+
+    }
+    &:hover img {
+      opacity: 0.5;
+    }
+
+  }
+}
+
+
+/**
+ * Home Layout
+ * ----------- */
+
+.post {
+  font-size: 20px;
+  article {
+    padding: 40px 0 20px;
+    p {
+      font-size: 20px;
+    }
+  }
+}
+

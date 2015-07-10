@@ -1,0 +1,97 @@
+---
+layout: default
+
+title: Mafia In Africa
+sub_title: How the Mafia infiltrates the African economy
+
+custom_css: mafrica-vis
+custom_js: mafrica-vis
+
+masthead_pic: /img/masthead.png
+---
+
+<div class="home">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <a name="about" class="anchor"></a>
+        <h1>Introduction</h1>
+        <hr class="branded"/>
+        <p class="lead">The Italian mafia has established a hidden but lethal presence in Africa. Its members own
+          diamond mines, nightclubs and land, all with the complicity of corrupt regimes.</p>
+
+        <p>Italian anti-Mafia authorities estimate that organised crime groups earn €26 billion a year in Italy alone.
+          But the figure only scratches the surface of its economic power. Mafia Inc. is more than ever a global
+          business, infiltrating legitimate economies worldwide. And the extent of the empire is unknown.</p>
+
+        <p>An international team of reporters from the non-profit investigative journalism centres IRPI and ANCIR (with
+          the Investigative Dashboard Africa) partnered with the data analysts of QUATTROGATTI and the production room
+          of CORRECT!V to uncover for the first time the Italian Mafia's grip on Africa.</p>
+
+        <p>Supported by two working grants for independent journalism, the Innovative Journalism Grant of the EJC and
+          Journalism Fund, the work took seven months, and included trips to Sicily, Calabria, Campania, Lazio,
+          Lombardy, in Italy and South Africa, Namibia, Senegal and Kenya, in Africa.</p>
+
+        <p>Ten investigative reporters from six different countries, one data-journalist and a data-scientist, three
+          editors, one cross-examiner and a bunch of lawyers joined the effort in producing in-depth research into the
+          Mafia's involvement in 13 countries.</p>
+
+        <p>Mafia in Africa draws a bleak picture, and highlights the need for the international community to reforms its
+          policies, to monitor and fight the economic infiltration by criminals and prevent the dire consequences on
+          unstable African societies.</p>
+
+      </div>
+      <div class="col-md-6">
+        {% include mafrica-vis.html %}
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <hr class="branded"/>
+
+    <div class="row">
+      <div class="col-md-6 credits">
+        <h2>Credits</h2>
+        <h4>Journalists:</h4>
+        <p>Giulio Rubino, Cecilia Anesi, Lorenzo Bodrero, Lorenzo Bagnoli from Italy; Khadija Sharife from South Africa; John Grobler from Namibia; Craig Shaw from the UK; Florian Bickmeyer from Germany; Atanas Tchobanov from Bulgaria;</p>
+        <h4>ANCIR iLab</h4>
+        <p>Heinrich Bohmke: Prosecutorial Editor (South Africa/Angola)<br/>
+        Alexander Yearsley: Investigative Analyst (South Africa/Angola)</p>
+        <h4>Infographics:</h4>
+        <p>Davide Mancino</p>
+        <h4>Data-analysis and data-science:</h4>
+        <p>Stefano Gurciullo</p>
+        <h4>Text editing:</h4>
+        <p>Craig Shaw (Centre for Investigative Journalism), Ariel Hauptmeier (CORRECT!V)</p>
+        <h4>Supervision:</h4>
+        <p>David Schraven</p>
+        <h4>Production:</h4>
+        <p>Stefan Wehrmeyer</p>
+        <h4>Pictures:</h4>
+        <p>Giulio Rubino, Cecilia Anesi, Lorenzo Bodrero, Lorenzo Bagnoli</p>
+
+        <hr class="branded visible-sm visible-xs"/>
+      </div>
+      <div class="col-md-6 articles">
+        <a name="articles" class="anchor"></a>
+        <h2>Articles</h2>
+        <div class="row">
+          {% for post in site.posts %}
+          <div class="col-sm-6 col-xs-12">
+            <a href="{{ post.url }}" class="thumbnail">
+              <img src="{{ site.baseurl }}{{ post.home_pic }}" alt="{{ post.title }}"/>
+              <div class="caption">
+                <h3>{{ post.title }}</h3>
+                <hr class="branded"/>
+              </div>
+            </a>
+          </div>
+          {% endfor %}
+
+        </div> <!-- /.row -->
+      </div>
+    </div> <!-- /.row -->
+
+  </div> <!-- /.container -->
+
+</div>
