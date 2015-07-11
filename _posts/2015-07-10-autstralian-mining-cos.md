@@ -24,7 +24,7 @@ Townsman Christophe Musinge Samba was among those trucked to the pit on Kilwa’
 
 Samba survived when the body of a fellow villager, shot in the head, knocked him down. Unseen by the soldiers, says Samba, he waited hours under cooling corpses before fleeing into the forest. 
 
-<img src="/img/australian_mining_cos/drc-sign.jpg" class="img-responsive"/>  
+<img src="/img/australian_mining_cos/drc-signs.jpg" class="img-responsive"/>  
 *The road from Dikulushi mine passes through Kilwa on the way to the port on Lake Mweru. Photo: Eleanor Bell*
 
 The trucks, leased planes, jeeps and rations that soldiers used in this attack were provided to the infantry by Anvil Mining, then a copper and silver producer traded on stock exchanges in Canada and Australia whose isolated Dikulushi mine lay 50 kilometers (30 miles) from Kilwa. One United Nations investigator remembers seeing blood in the beds of two trucks parked at Anvil’s offices in Kilwa when she visited days later.
