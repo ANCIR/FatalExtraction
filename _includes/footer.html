@@ -28,7 +28,7 @@
         <p class="lead">{{ site.sub_title }}</p>
         <p>{{ site.description }}</p>
         <br/>
-        {% for post in site.posts %}
+        {% for post in site.posts reversed limit:4 %}
         <p><a href="{{ post.url }}">{{ post.title }}</a></p>
         {% endfor %}
       </div>
@@ -38,8 +38,10 @@
              style="max-height: 80px;" />
         <h3>About A.N.C.I.R.</h3>
 
-        <p>The African Network of Centers for Investigative Reporting (ANCIR) is an association of the continent’s best
+        <p><a href="http://investigativecenters.org" target="_blank">The African Network of Centers for Investigative Reporting (ANCIR)</a> is an association of the continent’s best
           investigative newsrooms, ranging from large traditional media to small specialist units.</p>
+
+        <p>ANCIR works to strengthen African investigative journalism by improving the techniques, expertise, the tools used in muckraking newsrooms. This includes providing member newsrooms with the world’s best encryption and semantic analysis technologies, to forensic research support (through the Investigative Dashboard, legal services, and seed grants for cross-border collaboration.</p>
 
         <p>ANCIR receives technical support from <a href="http://www.codeforafrica.org" target="_blank">Code for Africa</a>.</p>
 

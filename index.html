@@ -135,7 +135,7 @@ masthead_pic: /img/masthead.png
         <a name="articles" class="anchor"></a>
         <h2>Articles</h2>
         <div class="row">
-          {% for post in site.posts %}
+          {% for post in site.posts reversed limit:6 %}
           <div class="col-sm-6 col-xs-12">
             <a href="{{ post.url }}" class="thumbnail">
               <img src="{{ site.baseurl }}{{ post.home_pic }}" alt="{{ post.title }}"/>
