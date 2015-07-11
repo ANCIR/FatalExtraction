@@ -75,7 +75,7 @@ Many of these companies appear to have clean records and are well received. They
 
 It is a vast — and in some cases deadly — footprint.
 
-<iframe src="http://projects.icij.org/fatalextraction/preview/" style="height:500px; width:100%" frameborder="0"></iframe>
+<iframe src="http://projects.icij.org/fatalextraction/preview/" style="height:350px; width:100%" frameborder="0" scrolling="no"></iframe>
 
 ICIJ’s investigation, combining Australian Securities Exchange (ASX) data analysis and on-the-ground reporting, reveals the scale and impact of Australia’s mining presence in Africa as it has grown over the last decade. 
 
