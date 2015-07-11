@@ -3,7 +3,7 @@
   <div class="container">
     <hr class="branded"/>
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-6 col-md-4">
         <h2>Partners</h2>
         <p class="lead">Made possible by these partners:</p>
         <div class="row">
@@ -23,7 +23,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-6 col-md-4">
         <h2>{{ site.title }}</h2>
         <p class="lead">{{ site.sub_title }}</p>
         <p>{{ site.description }}</p>
@@ -32,7 +32,8 @@
         <p><a href="{{ post.url }}">{{ post.title }}</a></p>
         {% endfor %}
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-12 col-md-4">
+        <hr class="branded visible-sm visible-xs"/>
         <img src="{{ '/img/logo.jpg' | prepend: site.baseurl }}"
              style="max-height: 80px;" />
         <h3>About A.N.C.I.R.</h3>
