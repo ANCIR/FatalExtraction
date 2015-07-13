@@ -13,25 +13,13 @@
             </div>
             <div class="col-sm-7 col-md-6">
               <h1>{{ site.title }}</h1>
-
               <h2>{{ site.sub_title }}</h2>
-
-              <div class="btn-group">
-                <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                  Select Story <span class="fa fa-angle-down fa-lg"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                  {% for post in site.posts %}
-                  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                  {% endfor %}
-                </ul>
-              </div>
             </div>
             <div class="col-sm-5 col-md-4 col-md-offset-2 hidden-xs logo">
-              <img class="img-responsive center-block" src="{{ '/img/logo_white.png' | prepend: site.baseurl }}"/>
-
-              <h1>A.N.C.I.R</h1>
+              <a href="http://investigativecenters.org/" target="_blank">
+                <img class="img-responsive center-block" src="{{ '/img/logo_white.png' | prepend: site.baseurl }}"/>
+                <h1>A.N.C.I.R</h1>
+              </a>
             </div>
           </div>
         </div>
