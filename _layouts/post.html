@@ -15,7 +15,7 @@ layout: default
 
   <div class="masthead">
     <div class="masthead-outer"
-         style="background-image: url('{% if page.masthead_pic %}{{ page.masthead_pic }}{% endif %}');">
+         style="{% if page.masthead_pic %}background-image: url('{{ page.masthead_pic }}');{% endif %}">
       <div class="masthead-inner darken">
         <div class="container">
           <div class="row">
