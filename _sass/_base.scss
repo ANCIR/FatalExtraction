@@ -1,24 +1,6 @@
 /* */
 
-@font-face {
-  font-family: 'captured';
-  src: url('/fonts/captured.ttf');
-}
-
-@font-face {
-  font-family: 'captured_it';
-  src: url('/fonts/Capture_it.ttf');
-}
-
-@font-face {
-  font-family: 'captured_it_2';
-  src: url('/fonts/Capture_it_2.ttf');
-}
-
-@font-face {
-  font-family: 'damaged';
-  src: url('/fonts/damaged.ttf');
-}
+@import "fonts";
 
 @import "bootstrap-sprockets";
 @import "variables";

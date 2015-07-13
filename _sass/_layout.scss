@@ -39,7 +39,11 @@ header {
 
       &.darken {
         background-color: rgba(0,0,0,0.3);
-        padding: 100px 0;
+        padding: 70px 0;
+        h1 {
+          margin: 0;
+          font-size: 50px;
+        }
       }
 
       h1, h2 {
@@ -48,13 +52,13 @@ header {
       }
       h1 {
         font-size: 70px;
-        font-weight: bold;
         display: inline-block;
-        margin: 0;
+        margin-bottom: 0;
       }
       h2 {
-        font-size: 40px;
+        font-size: 35px;
         margin-bottom: 30px;
+        font-weight: normal;
       }
 
       .logo {
