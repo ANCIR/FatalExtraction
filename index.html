@@ -45,80 +45,68 @@ masthead_pic: /img/masthead.png
         <hr class="branded"/>
         {% include key-findings.html %}
 
-        <iframe src="http://afrileaks.codeforafrica.org/embed/call-to-action-default.html" style="height: 230px; width: 100%;" scrolling="no" frameborder="0"></iframe>
+        <iframe src="http://afrileaks.codeforafrica.org/embed/call-to-action-default.html"
+                style="height: 230px; width: 100%;" scrolling="no" frameborder="0"></iframe>
 
         <h2>About This Project</h2>
         <hr class="branded"/>
-        <p>Fatal Extraction is an international collaboration combining corporate data and extensive field reporting to reveal deaths, injuries and community conflicts linked to Australian mining companies across Africa. Australia has more mining companies in Africa than other mining giants such as Canada and China.</p>
+        <p>Fatal Extraction is an international collaboration combining corporate data and extensive field reporting to
+          reveal deaths, injuries and community conflicts linked to Australian mining companies across Africa. Australia
+          has more mining companies in Africa than other mining giants such as Canada and China.</p>
+
         <p><a href="{{ site.url }}/about.html">Read more...</a></p>
 
       </div>
     </div>
     <!-- /.row -->
 
+    <hr class="branded"/>
+
+    <div class="more-series">
+      <h2>More In This Series</h2>
+      <br/>
+
+      <div class="row">
+        {% for series in site.data.home-more-series %}
+        <div class="col-sm-6 col-md-3">
+          <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+              <a href="{{ site.baseurl }}{% if series.slide_id %}/slider.html#{{ series.slide_id }}{% else %}{{ series.url }}{% endif %}">
+                <img
+                    src="{{ site.baseurl }}{% if series.slide_id %}/img/slider/{{ series.slide_id }}_home.jpg{% else %}{{ series.home_pic }}{% endif %}"
+                    alt="{{ series.title }}"/>
+
+                <div class="carousel-caption">
+                  <h3>{{ series.title }}</h3>
+                  <hr class="branded"/>
+                </div>
+              </a>
+            </div>
+
+          </div>
+          <p>{{ series.excerpt }}</p>
+
+          <p><a
+              href="{{ site.baseurl }}{% if series.slide_id %}/slider.html#{{ series.slide_id }}{% else %}{{ series.url }}{% endif %}">Read
+            more...</a></p>
+        </div>
+        {% assign loopindex = forloop.index | modulo: 2 %}
+        {% if loopindex == 0 %}
+        <div class="clearfix visible-sm"></div>
+        {% endif %}
+
+        {% assign loopindex = forloop.index | modulo: 4 %}
+        {% if loopindex == 0 %}
+        <div class="clearfix"></div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
 
     <hr class="branded"/>
 
     <div class="row">
-      <div class="col-md-6 credits">
-        <h2>The Team</h2>
-
-        <p><b>Project Manager:</b> Gerard Ryle</p>
-
-        <p><b>Lead Reporter:</b> Will Fitzgibbon</p>
-
-        <p><b>Multimedia Editor and Reporter:</b> Eleanor Bell</p>
-
-        <p><b>Data Reporter:</b> Cécile Schilis-Gallego</p>
-
-        <p><b>Online Editor:</b> Hamish Boland-Rudder</p>
-
-        <p><b>Data Editor:</b> Mar Cabra</p>
-
-        <p><b>Data contributors:</b> Friedrich Lindenberg (ANCIR iLab), Rigoberto Carvajal</p>
-
-        <p><b>Editors:</b> Martha M. Hamilton (ICIJ), Tom Stites (ICIJ), Philippe Riviere (ANCIR iLab), Mark Schapiro
-          (ANCIR iLab), Heinrich Bohmke (ANCIR iLab), Kimberley Porteous (Center for Public Integrity)</p>
-
-        <p><b>ANCIR coordinators:</b> Khadija Sharife, Justin Arenstein</p>
-
-        <p><b>News apps developers:</b> Chris Zubak-Skees, Fernando Blat</p>
-
-        <p><b>Graphic designer:</b> Álvaro Ortiz</p>
-
-        <p><b>Multimedia assistant:</b> Suzana Gashi</p>
-
-        <p><b>Researchers:</b> Emilia Diaz-Struck, Karrie Kehoe, Delphine Reuter</p>
-
-        <p><b>Fact checkers:</b> Peter Smith, Rick Sia</p>
-
-        <p><b>Reporters:</b></p>
-
-        <ul>
-          <li>Alvin Ntibinyane (Mmegi, Botswana)
-          <li>Mbongeni Mguni (Mmegi, Botswana)
-          <li>Boniface Keakabetswe (Mmegi, Botswana)
-          <li>Collins Mtika (Nyasa Times, Malawi)
-          <li>David Dembele (Depeches Mali, Mali)
-          <li>Finnigan wa Simbeye (Daily News, Tanzania)
-          <li>Gift Chanda (Zambia Post, Zambia)
-          <li>Latif Mahama (CitiFM, Ghana)
-          <li>Moussa Aksar (L’Evenement, Niger)
-          <li>Ray Choto (Voice of America, Zimbabwe, USA)
-          <li>Riana Raymond (L’Express de Madagascar, Madagascar)
-          <li>Rob Rose (Financial Mail, South Africa)
-          <li>Sandrine Sawadogo (L’Economiste du Faso, Burkina Faso
-          <li>Selay Kouassi (Abidjan Live News, Cote d’Ivoire)
-          <li>Shinovene Immanuel (The Namibian, Namibia);
-          <li>Ndanki Kahiurika (The Namibian, Namibia)
-          <li> Tidiane Hamadou Sy (OuestAf News, Senegal)
-        </ul>
-
-        <p>Support for this collaboration includes grants from the Pulitzer Center on Crisis Reporting, Open Society
-          Initiative for West Africa (OSIWA), Free Press Unlimited (FPU) and Natural Resource Governance Institute.</p>
-
-        <hr class="branded visible-sm visible-xs"/>
-      </div>
       <div class="col-md-6 articles">
         <a name="articles" class="anchor"></a>
 

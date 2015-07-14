@@ -116,35 +116,14 @@ hr.branded {
  * ----------- */
 
 .home {
-  .thumbnail {
-    .caption {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      padding: 30px 40px;
-      text-align: left;
-      width: 100%;
-      h3 {
-        color: #fff;
-      }
-      hr.branded {
-        border-top: 5px solid #ffffff;
-      }
-      &:hover {
-        h3 {
-          color: $brand-primary;
-        }
-        hr.branded {
-          border-top: 5px solid $brand-primary;
-        }
-      }
-
-    }
-    &:hover img {
-      opacity: 0.5;
-    }
-
-  }
+ .more-series {
+   .carousel-inner {
+     margin-bottom: 10px;
+   }
+   p:last-child {
+     margin-bottom: 20px;
+   }
+ }
 }
 
 
