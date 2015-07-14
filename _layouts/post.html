@@ -37,7 +37,13 @@ layout: default
       <div class="row">
         <div class="col-sm-6 col-sm-offset-2">
 
+          <div class="addthis_sharing_toolbox"></div><br/>
+
           {{ content }}
+
+          <hr/>
+
+          <div class="addthis_sharing_toolbox"></div>
 
           <hr/>
 
@@ -67,22 +73,21 @@ layout: default
 
               <p>Register for alerts for new ANCIR investigations.</p>
 
-              <form class="form-inline">
+              <form  action="//investigativecenters.us6.list-manage.com/subscribe/post?u=65e5825507b3cec760f272e79&amp;id=786f5d20f3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate" target="_blank" novalidate>
                 <div class="form-group">
                   <label class="sr-only" for="actnow-email">Email</label>
 
                   <div class="input-group">
                     <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
-                    <input type="text" class="form-control" id="actnow-email" placeholder="Email Address"/>
+                    <input type="email" class="form-control" name="EMAIL" id="actnow-email" placeholder="Email Address"/>
 
                     <span class="input-group-btn">
                       <button class="btn btn-default" type="button">Submit</button>
                     </span>
                   </div>
                   <span id="helpBlock" class="help-block">* We don't do spam, we do awesome.</span>
-                  <br/>
                   <!-- Go to www.addthis.com/dashboard to customize your tools -->
-                  <div class="addthis_custom_sharing"></div>
+                  <div class="addthis_sharing_toolbox"></div>
                 </div>
               </form>
             </div>
@@ -95,4 +100,5 @@ layout: default
 </div>
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55a570b52fc7a283" async="async"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55a570b52fc7a283" async="async"></script>
+
