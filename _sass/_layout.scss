@@ -166,7 +166,7 @@ hr.branded {
 
 
 /**
- * Home Layout
+ * Post Layout
  * ----------- */
 
 .post {
@@ -176,6 +176,26 @@ hr.branded {
     p {
       font-size: 20px;
     }
+  }
+}
+
+
+/**
+ * ActNOW Layout
+ * ------------- */
+
+.actnow {
+  .panel-body {
+    background: url("/img/logos/actnow.png") left bottom no-repeat;
+  }
+  h3 {
+  }
+  .btn-default {
+    background-color: #FBBF31;
+  }
+  .help-block {
+    font-size: 11px;
+    font-style: italic;
   }
 }
 

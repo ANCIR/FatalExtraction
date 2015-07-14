@@ -3,10 +3,11 @@ layout: default
 ---
 
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
+<script>(function (d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
+  js = d.createElement(s);
+  js.id = id;
   js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4&appId=449504361891198";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
@@ -22,6 +23,7 @@ layout: default
             <div class="col-md-8 col-md-offset-2">
               <h1>{{ page.title }}</h1>
               <br/> <br/>
+
               <p><em>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</em></p>
             </div>
           </div>
@@ -43,11 +45,54 @@ layout: default
         </div>
         <div class="col-sm-4">
           <h2>About This Project</h2>
-          <p><small>Fatal Extraction is an international collaboration combining corporate data and extensive field reporting to reveal deaths, injuries and community conflicts linked to Australian mining companies across Africa. Australia has more mining companies in Africa than other mining giants such as Canada and China.</small></p>
-          <p><small><a href="{{ site.baseurl }}/about.html">Read more...</a></small></p>
+
+          <p>
+            <small>Fatal Extraction is an international collaboration combining corporate data and extensive field
+              reporting to reveal deaths, injuries and community conflicts linked to Australian mining companies across
+              Africa. Australia has more mining companies in Africa than other mining giants such as Canada and China.
+            </small>
+          </p>
+          <p>
+            <small><a href="{{ site.baseurl }}/about.html">Read more...</a></small>
+          </p>
+
+          <br/>
+          <iframe src="http://afrileaks.codeforafrica.org/embed/call-to-action-default.html"
+                  style="height: 230px; width: 100%;" scrolling="no" frameborder="0"></iframe>
+          <br/><br/>
+
+          <div class="panel panel-default actnow">
+            <div class="panel-body">
+              <h3>ActNOW: ANCIR Alerts</h3>
+
+              <p>Register for alerts for new ANCIR investigations.</p>
+
+              <form class="form-inline">
+                <div class="form-group">
+                  <label class="sr-only" for="actnow-email">Email</label>
+
+                  <div class="input-group">
+                    <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+                    <input type="text" class="form-control" id="actnow-email" placeholder="Email Address"/>
+
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">Submit</button>
+                    </span>
+                  </div>
+                  <span id="helpBlock" class="help-block">* We don't do spam, we do awesome.</span>
+                  <br/>
+                  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                  <div class="addthis_custom_sharing"></div>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </article>
 
 </div>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55a570b52fc7a283" async="async"></script>
