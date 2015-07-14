@@ -6,55 +6,38 @@
     <div class="clearfix"></div>
   </div>
 
-  <div class="container">
-    <hr class="branded"/>
-    <div class="row">
-      <div class="col-sm-6 col-md-4">
-        <h2>Partners</h2>
-        <p class="lead">Made possible by these partners:</p>
-        <div class="row">
-          <div class="col-xs-8">
-            <p><img src="/img/logos/icij.png" class="img-responsive" /></p>
-            <br/>
-          </div>
-          <div class="col-xs-8">
-            <p><img src="/img/logos/ancir.png" class="img-responsive" /></p>
-            <br/>
-          </div>
-          <div class="col-xs-8">
-            <p><img src="/img/logos/icfj.png" class="img-responsive" /></p>
-          </div>
-          <div class="col-xs-8">
-            <p><img src="/img/logos/c4a.png" class="img-responsive" /></p>
-          </div>
+  <div class="clearfix ancir">
+    <div class="container-fluid">
+      <h3 class="pull-left">
+        <img src="/img/logo_white.png" /> A.N.C.I.R
+      </h3>
+      <p class="pull-left" style="margin: 10px 10px 10px 20px;"><em>Africa's best muckraking<br/>newsrooms.</em></p>
+      <div class="clearfix"></div>
+      <hr/>
+      <div class="row">
+        <div class="col-sm-8">
+          <p>
+            <a href="http://investigativecenters.org" target="_blank">HOME</a> .
+            <a href="https://afrileaks.org" target="_blank">AfriLEAKS</a> .
+            <a href="https://sourceafrica.net/" target="_blank">sourceAFRICA</a> .
+            <a href="http://connectedafrica.net/" target="_blank">connectedAFRICA</a>
+          </p>
+          <p>
+            <a href="http://grants.investigativecenters.org/" target="_blank">PROJECTS</a> .
+            <a href="#">Mafia In Africa</a> .
+            <a href="{{ site.baseurl }}/">#FatalExtraction</a>
+          </p>
         </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <h2>{{ site.title }}</h2>
-        <p class="lead">{{ site.sub_title }}</p>
-        <p>{{ site.description }}</p>
-        <br/>
-        {% for post in site.posts reversed limit:4 %}
-        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-        {% endfor %}
-      </div>
-      <div class="col-sm-12 col-md-4">
-        <hr class="branded visible-sm visible-xs"/>
-        <img src="{{ '/img/logo.jpg' | prepend: site.baseurl }}"
-             style="max-height: 80px;" />
-        <h3>About A.N.C.I.R.</h3>
-
-        <p><a href="http://investigativecenters.org" target="_blank">The African Network of Centers for Investigative Reporting (ANCIR)</a> is an association of the continent’s best
-          investigative newsrooms, ranging from large traditional media to small specialist units.</p>
-
-        <p>ANCIR works to strengthen African investigative journalism by improving the techniques, expertise, the tools used in muckraking newsrooms. This includes providing member newsrooms with the world’s best encryption and semantic analysis technologies, to forensic research support (through the Investigative Dashboard, legal services, and seed grants for cross-border collaboration.</p>
-
-        <p>ANCIR receives technical support from <a href="http://www.codeforafrica.org" target="_blank">Code for Africa</a>.</p>
-
+        <div class="col-sm-4">
+          <img src="/img/logos/c4a_white_2.png" class="pull-right" style="height: 45px;"/>
+          <p class="pull-right" style="margin: 5px 10px; font-size: 15px;">
+            <em><small>With technical<br/>support from:</small></em>
+          </p>
+        </div>
       </div>
     </div>
 
-  </div> <!-- /.container -->
+  </div> <!-- /.ancir -->
 
 </footer>
 

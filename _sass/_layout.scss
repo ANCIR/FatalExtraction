@@ -94,7 +94,7 @@ header {
  * ------------- */
 
 footer {
-  padding: 20px 0 20px;
+  padding: 20px 0 0;
 
   .icij {
     background-color: #852308;
@@ -109,11 +109,26 @@ footer {
   }
 
   .ancir {
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
-  }
+    h3 {
+      font-family: 'captured_it','captured_it_2', sans-serif;
+      font-weight: normal;
+      color: #ffffff;
+      font-size: 60px;
+      margin: 0;
+      img {
+        height: 70px;
+        margin-right: 10px;
+      }
+    }
 
-  hr {
-    margin-bottom: 40px;
+    a {
+      color: #ffffff;
+    }
   }
 }
 
