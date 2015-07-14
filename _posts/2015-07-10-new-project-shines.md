@@ -8,8 +8,6 @@ masthead_pic: /img/new-project-shines/pic_1.jpg
 home_pic: /img/new-project-shines/pic_1_home.jpg
 ---
 
-<iframe src="http://projects.icij.org/fatalextraction/preview/" style="height:350px; width:100%" frameborder="0" scrolling="no"></iframe>
-
 A major new regional investigation by ICIJ, its parent organization the Center for Public Integrity, [African Network of Centers for Investigative Reporting (ANCIR)](http://investigativecenters.org), and more than a dozen African journalists has for the first time revealed in detail the vast - and in some cases deadly - footprint Australian mining companies are leaving across Africa. 
 
 One of the biggest collaborations of journalists across the continent and ICIJ’s first major Africa-based project, Fatal Extraction shines a light on how Australian-listed mining companies are linked to hundreds of deaths and alleged injustices which wouldn’t be tolerated in better-regulated nations. 
