@@ -113,6 +113,49 @@ masthead_pic: /img/masthead.png
     <div class="how-we-did-it">
       <h2>How We Did It</h2>
       <br/>
+
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <p>Fatal Extraction is an international collaboration combining corporate data and extensive field reporting to reveal deaths, injuries and community conflicts linked to Australian mining companies across Africa. Australia has more mining companies in Africa than other mining giants such as Canada and China.</p>
+        </div>
+        {% for series in site.data.home-how-we-did-it %}
+        <div class="col-sm-6 col-md-3">
+          <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+              <a href="{{ site.baseurl }}{% if series.slide_id %}/slider.html#{{ series.slide_id }}{% else %}{{ series.url }}{% endif %}">
+                <img
+                    src="{{ site.baseurl }}{% if series.slide_id %}/img/slider/{{ series.slide_id }}_home.jpg{% else %}{{ series.home_pic }}{% endif %}"
+                    alt="{{ series.title }}"/>
+
+                <div class="carousel-caption">
+                  <h3>{{ series.title }}</h3>
+                  <hr class="branded"/>
+                </div>
+              </a>
+            </div>
+
+          </div>
+          {% if series.excerpt %}
+
+          <p>{{ series.excerpt }}</p>
+
+          <p><a
+              href="{{ site.baseurl }}{% if series.slide_id %}/slider.html#{{ series.slide_id }}{% else %}{{ series.url }}{% endif %}">Read
+            more...</a></p>
+          {% endif %}
+        </div>
+        {% assign loopindex = forloop.index | modulo: 2 %}
+        {% if loopindex == 1 and forloop.index != 1 %}
+        <div class="clearfix visible-sm"></div>
+        {% endif %}
+
+        {% assign loopindex = forloop.index | modulo: 4 %}
+        {% if loopindex == 1 and forloop.index != 1 %}
+        <div class="clearfix"></div>
+        {% endif %}
+        {% endfor %}
+      </div>
     </div> <!-- /.how-we-did-it -->
 
   </div>

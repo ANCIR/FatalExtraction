@@ -116,12 +116,15 @@ hr.branded {
  * ----------- */
 
 .home {
- .more-series {
+ .more-series, .how-we-did-it {
    a:hover img {
      opacity: 0.75;
    }
    .carousel-inner {
      margin-bottom: 10px;
+     img {
+       min-width: 100%;
+     }
    }
    p:last-child {
      margin-bottom: 20px;
