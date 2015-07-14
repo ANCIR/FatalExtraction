@@ -85,11 +85,14 @@ masthead_pic: /img/masthead.png
             </div>
 
           </div>
+          {% if series.excerpt %}
+
           <p>{{ series.excerpt }}</p>
 
           <p><a
               href="{{ site.baseurl }}{% if series.slide_id %}/slider.html#{{ series.slide_id }}{% else %}{{ series.url }}{% endif %}">Read
             more...</a></p>
+          {% endif %}
         </div>
         {% assign loopindex = forloop.index | modulo: 2 %}
         {% if loopindex == 0 %}

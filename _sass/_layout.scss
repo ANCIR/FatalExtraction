@@ -117,6 +117,9 @@ hr.branded {
 
 .home {
  .more-series {
+   a:hover img {
+     opacity: 0.75;
+   }
    .carousel-inner {
      margin-bottom: 10px;
    }
