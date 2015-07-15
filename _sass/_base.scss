@@ -18,6 +18,14 @@ body {
   font-size: 18px;
 }
 
+h1, .h1, h2, .h2, h3, .h3 {
+  margin-bottom: 20px;
+}
+
+hr {
+  margin: 50px 0;
+}
+
 .carousel-caption {
   h3 {
     color: #ffffff !important;

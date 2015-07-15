@@ -139,8 +139,10 @@ footer {
  * ------------- */
 
 hr.branded {
-  border-top: 5px solid $brand-primary;
+  border-color: $brand-primary;
 }
+
+
 
 
 /**
@@ -148,6 +150,9 @@ hr.branded {
  * ----------- */
 
 .home {
+  iframe {
+    margin-bottom: 50px;
+  }
  .more-series, .how-we-did-it {
    a:hover img {
      opacity: 0.75;
@@ -177,6 +182,43 @@ hr.branded {
       font-size: 20px;
     }
   }
+}
+
+
+/**
+ * AfriLEAKS Layout
+ * ------------- */
+
+.afrileaks {
+  background: #ffff00;
+  color: #000000;
+
+  .media-left {
+    img {
+      margin-top: 20px;
+      width: 100px;
+    }
+  }
+
+  .media-body {
+    padding: 20px 20px 20px 0;
+
+    .btn {
+      border-radius: 0;
+      background-color: #000000;
+      color: yellow;
+      font-family: 'afrileaks';
+      font-size: 20px;
+
+      &:hover, &:focus {
+        background-color: #000000;
+        color: yellow;
+        text-decoration: underline;
+      }
+    }
+  }
+
+
 }
 
 
