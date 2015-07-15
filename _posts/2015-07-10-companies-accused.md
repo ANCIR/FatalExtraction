@@ -8,7 +8,7 @@ masthead_pic: /img/companies_accused/pic_1.jpg
 home_pic: /img/companies_accused/pic_1_home.jpg
 ---
 
-Australian mining companies are linked to hundreds of deaths and injuries in Africa, which can go unreported at home. 
+<span class="drop-cap">A</span>ustralian mining companies are linked to hundreds of deaths and injuries in Africa, which can go unreported at home. 
 
 Some of the Australian Securities Exchange-listed companies include state governments as shareholders. One company recorded 38 worker deaths over an eleven-year period.
 

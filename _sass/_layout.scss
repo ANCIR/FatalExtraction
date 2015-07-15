@@ -38,7 +38,7 @@ header {
 
       &.darken {
         background-color: rgba(0, 0, 0, 0.3);
-        padding: 70px 0;
+        padding: 100px 0 40px;
         h1 {
           margin: 0;
           font-size: 50px;
@@ -156,6 +156,17 @@ hr.branded {
   }
 }
 
+.drop-cap {
+  float: left;
+  color: $brand-primary;
+  font-size: 95px;
+  line-height: 80px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-family: Georgia;
+}
+
 /**
  * Home Layout
  * ----------- */
@@ -222,7 +233,7 @@ hr.branded {
 .post {
   font-size: 20px;
   article {
-    padding: 40px 0 20px;
+    padding: 50px 0 20px;
     p {
       font-size: 20px;
     }

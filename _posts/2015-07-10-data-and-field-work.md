@@ -8,7 +8,7 @@ masthead_pic: /img/data-and-field-work/pic_1.jpg
 home_pic: /img/data-and-field-work/pic_1_home.jpg
 ---
 
-The 18-month Fatal Extraction investigation has brought together data and records from Australia and Africa in a way that hasn’t been done before, combining corporate information from the Australian Securities Exchange (ASX) with months of on-the-ground work by reporters throughout Africa.
+<span class="drop-cap">T</span>he 18-month Fatal Extraction investigation has brought together data and records from Australia and Africa in a way that hasn’t been done before, combining corporate information from the Australian Securities Exchange (ASX) with months of on-the-ground work by reporters throughout Africa.
 
 While reporters travelled more than 30,000 kilometers, digging through dusty public documents and finding victims and witnesses who have never spoken to media before, ICIJ's data team focussed on collecting and analyzing available data to build out a more comprehensive picture of Australian mining companies' presence in Africa.
 

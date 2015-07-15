@@ -8,7 +8,7 @@ masthead_pic: /img/australian_mining_cos/pic_1.jpg
 home_pic: /img/australian_mining_cos/pic_1_home.jpg
 ---
 
-In the late afternoon of Friday, Oct. 15, 2004, Col. Ilunga Ademar, a 64-year-old father of 20 nicknamed the “double-bladed knife” and known for violent outbursts, led a brigade of government troops of DRC’s 62nd Infantry Division into the town of Kilwa in southeastern Democratic Republic of Congo. 
+<span class="drop-cap">I</span>n the late afternoon of Friday, Oct. 15, 2004, Col. Ilunga Ademar, a 64-year-old father of 20 nicknamed the “double-bladed knife” and known for violent outbursts, led a brigade of government troops of DRC’s 62nd Infantry Division into the town of Kilwa in southeastern Democratic Republic of Congo. 
 
 The previous morning, the lakeside home to several thousand farmers, fishermen and their families had been taken — with a few shots in the air and without a drop of blood — by a handful of rebels led by a 20-year-old in sandals, trousers and a striped polo shirt. 
 
