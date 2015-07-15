@@ -148,8 +148,13 @@ masthead_pic: /img/masthead.png
       <h2>Reporting Partners</h2>
       <br/>
       <p>#FatalExtraction is the largest data-driven transnational investigation yet in Africa. ANCIR worked frontline reporters in 13 African countries, supported by specialist editors on three continents, and forensic technology teams in the United States and South Africa. The resulting articles are being republished by the following media partners:</p>
-      <div class="logos">
-
+      <br/>
+      <div class="container logos text-center">
+        {% for partner in site.data.reporting-partners %}
+        <a href="{{ site.baseurl }}{{ partner.url }}">
+          <img src="{{ site.baseurl }}/img/reporting-partners/{{ partner.logo }}" alt="{{ partner.name }}"/>
+        </a>
+        {% endfor %}
       </div>
     </div>
 

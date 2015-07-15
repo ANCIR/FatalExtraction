@@ -1,4 +1,3 @@
-
 /**
  * Header Layout
  * ------------- */
@@ -38,7 +37,7 @@ header {
       height: 100%;
 
       &.darken {
-        background-color: rgba(0,0,0,0.3);
+        background-color: rgba(0, 0, 0, 0.3);
         padding: 70px 0;
         h1 {
           margin: 0;
@@ -66,8 +65,8 @@ header {
         img {
           width: 150px;
         }
-        h1{
-          font-family: 'captured_it','captured_it_2', sans-serif;
+        h1 {
+          font-family: 'captured_it', 'captured_it_2', sans-serif;
           font-weight: normal;
           font-size: 75px;
         }
@@ -87,14 +86,12 @@ header {
 
 }
 
-
-
 /**
  * Footer Layout
  * ------------- */
 
 footer {
-  padding: 20px 0 0;
+  padding: 50px 0 0;
 
   .icij {
     background-color: #852308;
@@ -115,7 +112,7 @@ footer {
     padding-bottom: 20px;
 
     h3 {
-      font-family: 'captured_it','captured_it_2', sans-serif;
+      font-family: 'captured_it', 'captured_it_2', sans-serif;
       font-weight: normal;
       color: #ffffff;
       font-size: 60px;
@@ -132,8 +129,6 @@ footer {
   }
 }
 
-
-
 /**
  * Custom Layout
  * ------------- */
@@ -143,18 +138,15 @@ hr.branded {
 }
 
 .hyperspan {
-  position:absolute;
-  width:100%;
-  height:100%;
-  left:0;
-  top:0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
   &:hover {
-    background-color: rgba(0,0,0,0.07);
+    background-color: rgba(0, 0, 0, 0.07);
   }
 }
-
-
-
 
 /**
  * Home Layout
@@ -164,45 +156,56 @@ hr.branded {
   iframe {
     margin-bottom: 50px;
   }
- .more-series, .how-we-did-it {
+  .more-series, .how-we-did-it {
 
-   .col-inner {
-     background-color: #efefec;
-     padding-bottom: 5px;
+    .col-inner {
+      background-color: #efefec;
+      padding-bottom: 5px;
 
-     & > * {
-       padding-right: 5px;
-       padding-left: 5px;
-     }
-     img, hr, a, .hyperspan {
-       padding: 0;
-     }
+      & > * {
+        padding-right: 5px;
+        padding-left: 5px;
+      }
+      img, hr, a, .hyperspan {
+        padding: 0;
+      }
 
-     position: relative;
+      position: relative;
 
+    }
 
-   }
+    img {
+      border-top: 1px solid $brand-primary;
+      width: 100%;
+    }
 
-   img {
-     border-top: 1px solid $brand-primary;
-     width: 100%;
-   }
+    a:hover img {
+      opacity: 0.75;
+    }
+    .carousel-inner {
+      margin-bottom: 10px;
+      img {
+        min-width: 100%;
+      }
+    }
+    p:last-child {
+      margin-bottom: 20px;
+    }
+  }
 
-   a:hover img {
-     opacity: 0.75;
-   }
-   .carousel-inner {
-     margin-bottom: 10px;
-     img {
-       min-width: 100%;
-     }
-   }
-   p:last-child {
-     margin-bottom: 20px;
-   }
- }
+  .reporting-partners {
+    .logos {
+      a {
+        img {
+          padding: 10px;
+          margin: 10px;
+          height: 70px;
+        }
+      }
+    }
+  }
+
 }
-
 
 /**
  * Post Layout
@@ -217,7 +220,6 @@ hr.branded {
     }
   }
 }
-
 
 /**
  * AfriLEAKS Layout
@@ -252,9 +254,7 @@ hr.branded {
     }
   }
 
-
 }
-
 
 /**
  * ActNOW Layout
