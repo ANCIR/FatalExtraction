@@ -50,21 +50,7 @@ layout: default
           <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="5"></div>
         </div>
         <div class="col-sm-4">
-          <h2>About This Project</h2>
-
-          <p>
-            <small>Fatal Extraction is an international collaboration combining corporate data and extensive field
-              reporting to reveal deaths, injuries and community conflicts linked to Australian mining companies across
-              Africa. Australia has more mining companies in Africa than other mining giants such as Canada and China.
-            </small>
-          </p>
-          <p>
-            <small><a href="{{ site.baseurl }}/about.html">Read more...</a></small>
-          </p>
-
-          <br/>
-          <iframe src="http://afrileaks.codeforafrica.org/embed/call-to-action-default.html"
-                  style="height: 230px; width: 100%;" scrolling="no" frameborder="0"></iframe>
+          {% include afrileaks-embed.html %}
           <br/><br/>
 
           <div class="panel panel-default actnow">
