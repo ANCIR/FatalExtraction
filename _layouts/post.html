@@ -20,7 +20,7 @@ layout: default
       <div class="masthead-inner darken">
         <div class="container">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-1">
               <h1>{{ page.title }}</h1>
               <br/> <br/>
 
@@ -35,9 +35,10 @@ layout: default
   <article>
     <div class="container">
       <div class="row">
-        <div class="col-sm-6 col-sm-offset-2">
+        <div class="col-sm-10 col-sm-offset-1 col-md-6">
 
-          <div class="addthis_sharing_toolbox"></div><br/>
+          <div class="addthis_sharing_toolbox"></div>
+          <br/>
 
           {{ content }}
 
@@ -48,36 +49,53 @@ layout: default
           <hr/>
 
           <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="5"></div>
+
+          <hr class="visible-xs visible-sm"/>
         </div>
-        <div class="col-sm-4">
-          {% include afrileaks-embed.html %}
-          <br/><br/>
+        <div class="col-sm-1 visible-sm"></div> <!-- Fix facebook things. -->
+        <div class="clearfix visible-sm visible-xs"></div>
+        <div class="col-sm-10 col-sm-offset-1 col-md-4">
+          <div class="row">
+            <div class="col-sm-6 col-md-12">
+              {% include afrileaks-embed.html %}
+              <hr class="hidden-sm"/>
+            </div>
+            <div class="col-sm-6 col-md-12">
 
-          <div class="panel panel-default actnow">
-            <div class="panel-body">
-              <h3>ActNOW: ANCIR Alerts</h3>
+              <div class="panel panel-default actnow">
+                <div class="panel-body">
+                  <h3>ActNOW: ANCIR Alerts</h3>
 
-              <p>Register for alerts for new ANCIR investigations.</p>
+                  <p>Register for alerts for new ANCIR investigations.</p>
 
-              <form  action="//investigativecenters.us6.list-manage.com/subscribe/post?u=65e5825507b3cec760f272e79&amp;id=786f5d20f3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate" target="_blank" novalidate>
-                <div class="form-group">
-                  <label class="sr-only" for="actnow-email">Email</label>
+                  <form
+                      action="//investigativecenters.us6.list-manage.com/subscribe/post?u=65e5825507b3cec760f272e79&amp;id=786f5d20f3"
+                      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                      class="form-inline validate" target="_blank" novalidate>
+                    <div class="form-group">
+                      <label class="sr-only" for="actnow-email">Email</label>
 
-                  <div class="input-group">
-                    <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
-                    <input type="email" class="form-control" name="EMAIL" id="actnow-email" placeholder="Email Address"/>
+                      <div class="input-group">
+                        <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+                        <input type="email" class="form-control" name="EMAIL" id="actnow-email"
+                               placeholder="Email Address"/>
 
                     <span class="input-group-btn">
                       <button class="btn btn-default" type="button">Submit</button>
                     </span>
-                  </div>
-                  <span id="helpBlock" class="help-block">* We don't do spam, we do awesome.</span>
-                  <!-- Go to www.addthis.com/dashboard to customize your tools -->
-                  <div class="addthis_sharing_toolbox"></div>
+                      </div>
+                      <span id="helpBlock" class="help-block">* We don't do spam, we do awesome.</span>
+                    </div>
+                  </form>
                 </div>
-              </form>
+              </div>
+              <!-- /.panel -->
+
             </div>
+            <!-- /.col-sm-6.col-md-12 -->
+
           </div>
+
         </div>
       </div>
     </div>
@@ -86,5 +104,6 @@ layout: default
 </div>
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55a570b52fc7a283" async="async"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55a570b52fc7a283"
+        async="async"></script>
 
