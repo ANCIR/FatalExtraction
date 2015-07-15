@@ -102,6 +102,7 @@ footer {
     }
     img {
       height: 71px;
+      max-width: 35%;
     }
   }
 
@@ -125,6 +126,13 @@ footer {
 
     a {
       color: #ffffff;
+    }
+
+    .links p {
+      font-size: 16px;
+      span {
+        margin: 0 10px;
+      }
     }
   }
 }
