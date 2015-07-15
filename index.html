@@ -65,41 +65,50 @@ masthead_pic: /img/masthead.png
 
       <div class="row">
         {% for series in site.data.home-more-series %}
-        <div class="col-sm-6 col-md-3">
-          <div class="carousel-inner" role="listbox">
+        {% if series.excerpt %}
 
-            <div class="item active">
-              <a href="{{ site.baseurl }}{% if series.slide_id %}/slider.html#{{ series.slide_id }}{% else %}{{ series.url }}{% endif %}">
-                <img
-                    src="{{ site.baseurl }}{% if series.slide_id %}/img/slider/{{ series.slide_id }}_home.jpg{% else %}{{ series.home_pic }}{% endif %}"
-                    alt="{{ series.title }}"/>
-
-                <div class="carousel-caption">
-                  <h3>{{ series.title }}</h3>
-                  <hr class="branded"/>
-                </div>
-              </a>
-            </div>
-
+        <div class="col-sm-6 col-md-6 col-lg-2">
+          <div class="col-inner">
+            <a href="{{ site.baseurl }}/slider.html#{{ series.slide_id }}">
+              <span class="hyperspan"></span>
+            </a>
+            <img src="{{ site.baseurl }}/img/slider/{{ series.slide_id }}_home.jpg" class="img-responsive"/>
+            <h4>{{ series.title }}</h4>
+            <p><small>{{ series.excerpt }}</small></p>
           </div>
-          {% if series.excerpt %}
-
-          <p>{{ series.excerpt }}</p>
-
-          <p><a
-              href="{{ site.baseurl }}{% if series.slide_id %}/slider.html#{{ series.slide_id }}{% else %}{{ series.url }}{% endif %}">Read
-            more...</a></p>
-          {% endif %}
         </div>
+
+        {% else %}
+
+        <div class="col-sm-6">
+          <div class="col-inner">
+            <a href="{{ site.baseurl }}{{ series.url }}">
+              <span class="hyperspan"></span>
+            </a>
+            <img src="{{ site.baseurl }}{{ series.home_pic }}" class="img-responsive"/>
+            <h2>{{ series.title }}</h2>
+          </div>
+        </div>
+
+        {% endif %}
+
+        <div class="clearfix visible-xs"></div>
+        <div class="col-xs-12 visible-xs" style="height: 30px;"></div>
+        <div class="clearfix visible-xs"></div>
+
         {% assign loopindex = forloop.index | modulo: 2 %}
-        {% if loopindex == 0 %}
-        <div class="clearfix visible-sm"></div>
+        {% if loopindex == 0 and forloop.index != 4 %}
+        <div class="clearfix visible-md visible-sm"></div>
+        <div class="col-xs-12 visible-md visible-sm" style="height: 30px;"></div>
         {% endif %}
 
         {% assign loopindex = forloop.index | modulo: 4 %}
         {% if loopindex == 0 %}
-        <div class="clearfix"></div>
+        <div class="clearfix hidden-xs"></div>
+        <div class="col-xs-12 hidden-xs" style="height: 30px;"></div>
         {% endif %}
+
+
         {% endfor %}
       </div>
     </div> <!-- /.more-series -->
@@ -116,40 +125,19 @@ masthead_pic: /img/masthead.png
         </div>
         {% for series in site.data.home-how-we-did-it %}
         <div class="col-sm-6 col-md-3">
-          <div class="carousel-inner" role="listbox">
-
-            <div class="item active">
-              <a href="{{ site.baseurl }}{% if series.slide_id %}/slider.html#{{ series.slide_id }}{% else %}{{ series.url }}{% endif %}">
-                <img
-                    src="{{ site.baseurl }}{% if series.slide_id %}/img/slider/{{ series.slide_id }}_home.jpg{% else %}{{ series.home_pic }}{% endif %}"
-                    alt="{{ series.title }}"/>
-
-                <div class="carousel-caption">
-                  <h3>{{ series.title }}</h3>
-                  <hr class="branded"/>
-                </div>
-              </a>
-            </div>
-
+          <div class="col-inner">
+            <a href="{{ site.baseurl }}{{ series.url }}">
+              <span class="hyperspan"></span>
+            </a>
+            <img src="{{ site.baseurl }}{{ series.home_pic }}" class="img-responsive"/>
+            <h3 class="text-center">{{ series.title }}</h3>
           </div>
-          {% if series.excerpt %}
-
-          <p>{{ series.excerpt }}</p>
-
-          <p><a
-              href="{{ site.baseurl }}{% if series.slide_id %}/slider.html#{{ series.slide_id }}{% else %}{{ series.url }}{% endif %}">Read
-            more...</a></p>
-          {% endif %}
         </div>
         {% assign loopindex = forloop.index | modulo: 2 %}
         {% if loopindex == 1 and forloop.index != 1 %}
         <div class="clearfix visible-sm"></div>
         {% endif %}
 
-        {% assign loopindex = forloop.index | modulo: 4 %}
-        {% if loopindex == 1 and forloop.index != 1 %}
-        <div class="clearfix"></div>
-        {% endif %}
         {% endfor %}
       </div>
     </div> <!-- /.how-we-did-it -->

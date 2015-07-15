@@ -46,6 +46,17 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="{{ '/js/bootstrap.fancyfixedscrollnav.js' | prepend: site.baseurl }}"></script>
 
+<script src="{{ '/js/jquery.matchHeight.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+
+<script type="text/javascript">
+  (function ($) {
+    $(document).ready(function () {
+      $('.col-inner').matchHeight();
+    });
+  }(jQuery));
+
+</script>
+
 {% if page.custom_js %}
 {% for js_file in page.custom_js %}
 <script src="{{ site.baseurl }}/js/{{ js_file }}.js" type="text/javascript"></script>
