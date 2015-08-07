@@ -23,7 +23,7 @@ header {
         font-weight: normal;
         &:hover, &:focus {
           text-decoration: underline;
-          background-color: transparent;
+          background-color: transparent !important;
         }
       }
     }
@@ -104,6 +104,32 @@ header {
   }
 
 }
+
+
+/**
+ * Page Layout
+ * ----------- */
+
+.container-content {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-top: -6px;
+}
+
+/**
+ * Post Layout
+ * ----------- */
+
+.post {
+  font-size: 20px;
+  article {
+    padding: 50px 0 20px;
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
 
 /**
  * Footer Layout
@@ -211,11 +237,6 @@ h4.section-title {
  * ----------- */
 
 .home {
-  .home-content {
-    padding-top: 20px;
-    padding-bottom: 50px;
-    margin-top: -6px;
-  }
   .more-series, .how-we-did-it {
 
     .col-inner {
@@ -272,20 +293,6 @@ h4.section-title {
     }
   }
 
-}
-
-/**
- * Post Layout
- * ----------- */
-
-.post {
-  font-size: 20px;
-  article {
-    padding: 50px 0 20px;
-    p {
-      font-size: 20px;
-    }
-  }
 }
 
 
