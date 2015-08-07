@@ -10,7 +10,7 @@
     $(document).ready(function () {
 
         // hide .navbar first
-        $('header .navbar-brand').css('visibility','hidden');
+        $('header .navbar-brand').html($('#navbar-brand-up').html());
         $('header .navbar').addClass('navbar-static-top');
         $('header .navbar').removeClass('navbar-fixed-top');
 
@@ -22,13 +22,13 @@
 
                 // set distance user needs to scroll before we start fadeIn
                 if ($(this).scrollTop() > $(".masthead").outerHeight()) {
-                    $('header .navbar-brand').css('visibility','visible');
+                    $('header .navbar-brand').html($('#navbar-brand-scrolled').html());
                     $('header .navbar').removeClass('navbar-static-top');
                     $('header .navbar').addClass('navbar-fixed-top');
 
                     $('header .navbar-filler').height(62);
                 } else {
-                    $('header .navbar-brand').css('visibility','hidden');
+                    $('header .navbar-brand').html($('#navbar-brand-up').html());
                     $('header .navbar').addClass('navbar-static-top');
                     $('header .navbar').removeClass('navbar-fixed-top');
 

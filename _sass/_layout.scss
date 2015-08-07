@@ -27,6 +27,10 @@ header {
       font-weight: bold;
       font-size: 21px;
       text-transform: none;
+
+      &:hover {
+        background-color: transparent!important;
+      }
     }
     .navbar-nav {
       a {
@@ -35,6 +39,7 @@ header {
         &:hover, &:focus {
           text-decoration: underline;
           background-color: transparent !important;
+          color: $brand-primary;
         }
       }
     }
