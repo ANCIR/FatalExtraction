@@ -16,9 +16,14 @@ $gray-light:             lighten($gray-base, 60%) !default;   // #999
 $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 $gray-lightest:          #f6f6f6;
 
-$gray-nav:               #dfdfdf;
-$gray-nav-back:          #e5e5e5;
 $gray-headings:          #dcdcdc;
+
+$nav-black-inner:        #000;
+$nav-black-outer:        #1a1a1a;
+
+$nav-gray-inner:         #dfdfdf;
+$nav-gray-outer:         #e5e5e5;
+
 
 
 $brand-primary:         #941515 !default;

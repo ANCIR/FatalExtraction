@@ -5,6 +5,17 @@
 header {
   .navbar {
     margin-bottom: 0;
+    background-color: $nav-gray-outer;
+    .container {
+      background-color: $nav-gray-inner;
+    }
+    &.navbar-inverse{
+      background-color: $nav-black-outer;
+      .container {
+        background-color: $nav-black-inner;
+      }
+    }
+
     .navbar-brand {
       border-right: 1px solid #ffffff;
       img {
@@ -108,7 +119,7 @@ header {
 /* Stories Nav */
 
 #second-nav {
-  background-color: $gray-nav-back;
+
 }
 
 
