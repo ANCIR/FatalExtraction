@@ -47,7 +47,19 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-left">
-          <li><a href="{{ site.baseurl }}/#articles">stories</a></li>
+          <li><a href="#" id="second-nav-btn">stories <span class="caret"></span></a></li>
+          <li class="dropdown visible-xs">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">stories <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
           <li><a href="{{ site.baseurl }}/data.html">data</a></li>
           <li><a href="{{ site.baseurl }}/about.html#team">team</a></li>
         </ul>
@@ -62,6 +74,10 @@
       <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->
+  </nav>
+
+  <nav class="navbar navbar-static-top" id="second-nav">
+
   </nav>
 
   <div class="navbar-filler"></div>
