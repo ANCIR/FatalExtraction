@@ -15,6 +15,7 @@ $gray:                   #777 !default; // #555
 $gray-light:             lighten($gray-base, 60%) !default;   // #999
 $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 $gray-lightest:          #f6f6f6;
+$gray-headings:          #dcdcdc;
 
 $brand-primary:         #941515 !default;
 $brand-primary-light:   lighten($brand-primary, 25%) !default;
@@ -31,7 +32,7 @@ $brand-danger:          #F57A00 !default;
 //** Background color for `<body>`.
 $body-bg:               #fff !default;
 //** Global text color on `<body>`.
-$text-color:            $gray !default;
+$text-color:            #333 !default;
 
 //** Global textual link color.
 $link-color:            $brand-primary !default;
@@ -71,7 +72,7 @@ $line-height-computed:    floor(($font-size-base * $line-height-base)) !default;
 $headings-font-family:    'lora', $font-family-serif !default;
 $headings-font-weight:    bold !default;
 $headings-line-height:    1.1 !default;
-$headings-color:          #000 !default;
+$headings-color:          #333 !default;
 
 
 //== Iconography

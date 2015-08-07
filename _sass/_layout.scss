@@ -195,6 +195,10 @@ hr.branded {
 h4.section-title {
   font-size: 22px;
 }
+.section-description {
+  border-top: 1px dotted #dfdfdf;
+  padding-top: 2px;
+}
 
 .border-top-branded {
   border-top: 1px solid $brand-primary-light;
@@ -283,13 +287,50 @@ h4.section-title {
   }
 }
 
+
+/**
+ * Key Findings Layout
+ * ------------------- */
+
+.key-findings {
+  .list {
+    .media {
+      padding-top: 3px;
+      &:before {
+        width: 40%;
+        position: relative;
+        top: -2px;
+        left: 2px;
+        content: '';
+        display: block;
+        height: 1px;
+        background-color: #dcdcdc;
+      }
+      .media-left {
+        h1 {
+          margin-top: 0;
+          color: $gray-headings;
+        }
+      }
+      .media-body {
+        h4 {
+          font-weight: normal;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+
 /**
  * AfriLEAKS Layout
- * ------------- */
+ * ---------------- */
 
 .afrileaks {
   background: #ffff00;
   color: #000000;
+  padding-bottom: 20px;
 
   .media-left {
     img {
@@ -299,20 +340,20 @@ h4.section-title {
   }
 
   .media-body {
-    padding: 20px 20px 20px 0;
+    padding: 20px 20px 0px 2px;
+  }
 
-    .btn {
-      border-radius: 0;
+  .btn {
+    border-radius: 0;
+    background-color: #000000;
+    color: yellow;
+    font-family: 'afrileaks';
+    font-size: 20px;
+
+    &:hover, &:focus {
       background-color: #000000;
       color: yellow;
-      font-family: 'afrileaks';
-      font-size: 20px;
-
-      &:hover, &:focus {
-        background-color: #000000;
-        color: yellow;
-        text-decoration: underline;
-      }
+      text-decoration: underline;
     }
   }
 

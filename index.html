@@ -16,7 +16,7 @@ masthead_pic: /img/masthead.png
   <div class="home-content container">
     <div class="row">
 
-      <div class="col-sm-6">
+      <div class="col-sm-8 col-sm-offset-2">
         <a name="about" class="anchor"></a>
 
         <h1 class="section-title">Australian Mining Companies Digging A Deadly Footprint in Africa</h1>
@@ -45,17 +45,12 @@ masthead_pic: /img/masthead.png
         <p><a href="{{ site.baseurl }}/2015/07/10/companies-accused.html">Read more...</a></p>
 
       </div>
-      <div class="col-sm-6 sidebar">
-
-        {% include key-findings.html %}
-
-        <br/>
-
-        {% include afrileaks-embed.html %}
-
-      </div>
     </div>
     <!-- /.row -->
+
+    <hr class="branded"/>
+
+    {% include key-findings.html %}
 
     <hr class="branded"/>
 
@@ -121,7 +116,7 @@ masthead_pic: /img/masthead.png
       <div class="row">
         <div class="col-sm-6 col-md-3">
           <h3 class="section-title">how we did it</h3>
-          <p>Fatal Extraction is an international collaboration combining corporate data and extensive field reporting to reveal deaths, injuries and community conflicts linked to Australian mining companies across Africa. Australia has more mining companies in Africa than other mining giants such as Canada and China.</p>
+          <p class="section-description">Fatal Extraction is an international collaboration combining corporate data and extensive field reporting to reveal deaths, injuries and community conflicts linked to Australian mining companies across Africa. Australia has more mining companies in Africa than other mining giants such as Canada and China.</p>
         </div>
         {% for series in site.data.home-how-we-did-it %}
         <div class="col-sm-6 col-md-3">
@@ -148,7 +143,7 @@ masthead_pic: /img/masthead.png
       <div class="row">
         <div class="col-sm-3">
           <h3 class="section-title">reporting partners</h3>
-          <p>#FatalExtraction is the largest data-driven transnational investigation yet in Africa. ANCIR worked frontline reporters in 13 African countries, supported by specialist editors on three continents, and forensic technology teams in the United States and South Africa. The resulting articles are being republished by the following media partners:</p>
+          <p class="section-description">#FatalExtraction is the largest data-driven transnational investigation yet in Africa. ANCIR worked frontline reporters in 13 African countries, supported by specialist editors on three continents, and forensic technology teams in the United States and South Africa. The resulting articles are being republished by the following media partners:</p>
         </div>
         <div class="col-sm-9">
           <div class="logos">
