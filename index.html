@@ -13,12 +13,13 @@ masthead_pic: /img/masthead.png
   <iframe src="http://projects.icij.org/fatalextractionapp/about" frameborder="0"
           style="height: 720px; width: 100%;"></iframe>
 
-  <div class="container">
+  <div class="home-content container">
     <div class="row">
-      <div class="col-sm-7 col-md-6 col-md-offset-1">
+
+      <div class="col-sm-6">
         <a name="about" class="anchor"></a>
 
-        <h1>Australian Mining Companies Digging A Deadly Footprint in Africa</h1>
+        <h1 class="section-title">Australian Mining Companies Digging A Deadly Footprint in Africa</h1>
 
         <p>Australian mining companies are linked to hundreds of deaths and injuries in Africa, which can go unreported
           at home.</p>
@@ -44,9 +45,9 @@ masthead_pic: /img/masthead.png
         <p><a href="{{ site.baseurl }}/2015/07/10/companies-accused.html">Read more...</a></p>
 
       </div>
-      <div class="col-sm-5 col-md-4 sidebar">
-        <h2>Key Findings</h2>
-        <small>{% include key-findings.html %}</small>
+      <div class="col-sm-6 sidebar">
+
+        {% include key-findings.html %}
 
         <br/>
 
@@ -60,7 +61,7 @@ masthead_pic: /img/masthead.png
 
     <div class="more-series">
       <a name="articles" class="anchor"></a>
-      <h2>More In This Series</h2>
+      <h4 class="section-title">more in this series</h4>
       <br/>
 
       <div class="row">
@@ -116,11 +117,10 @@ masthead_pic: /img/masthead.png
     <hr class="branded"/>
 
     <div class="how-we-did-it">
-      <h2>How We Did It</h2>
-      <br/>
 
       <div class="row">
         <div class="col-sm-6 col-md-3">
+          <h3 class="section-title">how we did it</h3>
           <p>Fatal Extraction is an international collaboration combining corporate data and extensive field reporting to reveal deaths, injuries and community conflicts linked to Australian mining companies across Africa. Australia has more mining companies in Africa than other mining giants such as Canada and China.</p>
         </div>
         {% for series in site.data.home-how-we-did-it %}
@@ -130,7 +130,7 @@ masthead_pic: /img/masthead.png
               <span class="hyperspan"></span>
             </a>
             <img src="{{ site.baseurl }}{{ series.home_pic }}" class="img-responsive"/>
-            <h3 class="text-center">{{ series.title }}</h3>
+            <h3>{{ series.title }}</h3>
           </div>
         </div>
         {% assign loopindex = forloop.index | modulo: 2 %}
@@ -144,18 +144,23 @@ masthead_pic: /img/masthead.png
 
     <hr class="branded"/>
 
-    <div class="reporting-partners text-center">
-      <h2>Reporting Partners</h2>
-      <br/>
-      <p>#FatalExtraction is the largest data-driven transnational investigation yet in Africa. ANCIR worked frontline reporters in 13 African countries, supported by specialist editors on three continents, and forensic technology teams in the United States and South Africa. The resulting articles are being republished by the following media partners:</p>
-      <br/>
-      <div class="container logos text-center">
-        {% for partner in site.data.reporting-partners %}
-        <a href="{{ site.baseurl }}{{ partner.url }}">
-          <img src="{{ site.baseurl }}/img/reporting-partners/{{ partner.logo }}" alt="{{ partner.name }}"/>
-        </a>
-        {% endfor %}
+    <div class="reporting-partners">
+      <div class="row">
+        <div class="col-sm-3">
+          <h3 class="section-title">reporting partners</h3>
+          <p>#FatalExtraction is the largest data-driven transnational investigation yet in Africa. ANCIR worked frontline reporters in 13 African countries, supported by specialist editors on three continents, and forensic technology teams in the United States and South Africa. The resulting articles are being republished by the following media partners:</p>
+        </div>
+        <div class="col-sm-9">
+          <div class="logos">
+            {% for partner in site.data.reporting-partners %}
+            <a href="{{ site.baseurl }}{{ partner.url }}">
+              <img src="{{ site.baseurl }}/img/reporting-partners/{{ partner.logo }}" alt="{{ partner.name }}"/>
+            </a>
+            {% endfor %}
+          </div>
+        </div>
       </div>
+
     </div>
 
   </div>

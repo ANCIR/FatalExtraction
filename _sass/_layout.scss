@@ -12,6 +12,20 @@ header {
         vertical-align: top;
         display: inline-block;
       }
+      font-family: "lora", Georgia, "Times New Roman", Times, serif;
+      font-weight: bold;
+      font-size: 21px;
+      text-transform: none;
+    }
+    .navbar-nav {
+      a {
+        font-family: "lora", Georgia, "Times New Roman", Times, serif;
+        font-weight: normal;
+        &:hover, &:focus {
+          text-decoration: underline;
+          background-color: transparent;
+        }
+      }
     }
   }
 }
@@ -20,6 +34,10 @@ header {
 
   color: #fff !important;
   text-align: left;
+
+  .container {
+    background-color: transparent;
+  }
 
   .dropdown-menu {
     z-index: 2000;
@@ -53,6 +71,7 @@ header {
         font-size: 70px;
         display: inline-block;
         margin-bottom: 0;
+        font-weight: bold !important;
       }
       h2 {
         font-size: 35px;
@@ -91,8 +110,6 @@ header {
  * ------------- */
 
 footer {
-  padding: 50px 0 0;
-
   .icij {
     background-color: #852308;
     p {
@@ -142,7 +159,9 @@ footer {
  * ------------- */
 
 hr.branded {
-  border-color: $brand-primary;
+  border-color: $brand-primary-light;
+  margin-right: -30px;
+  margin-left: -30px;
 }
 
 .hyperspan {
@@ -158,7 +177,7 @@ hr.branded {
 
 .drop-cap {
   float: left;
-  color: $brand-primary;
+  color: $gray-darker;
   font-size: 95px;
   line-height: 80px;
   padding-top: 4px;
@@ -167,13 +186,30 @@ hr.branded {
   font-family: Georgia;
 }
 
+.section-title {
+  margin-top:0 ;
+  &.border-top-branded {
+    padding-top: 3px !important;
+  }
+}
+h4.section-title {
+  font-size: 22px;
+}
+
+.border-top-branded {
+  border-top: 1px solid $brand-primary-light;
+}
+
+
 /**
  * Home Layout
  * ----------- */
 
 .home {
-  iframe {
-    margin-bottom: 50px;
+  .home-content {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: -6px;
   }
   .more-series, .how-we-did-it {
 
@@ -189,12 +225,19 @@ hr.branded {
         padding: 0;
       }
 
+      h2, h3, h4 {
+        margin-top: 3px;
+      }
+      h4 {
+        font-size: 20px;
+      }
+
       position: relative;
 
     }
 
     img {
-      border-top: 1px solid $brand-primary;
+      border-top: 1px solid $brand-primary-light;
       width: 100%;
     }
 
