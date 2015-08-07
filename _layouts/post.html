@@ -2,16 +2,6 @@
 layout: default
 ---
 
-<div id="fb-root"></div>
-<script>(function (d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4&appId=449504361891198";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
 <div class="post">
 
   <div class="masthead">
@@ -33,7 +23,7 @@ layout: default
   </div>
 
   <article>
-    <div class="container">
+    <div class="container-content container">
       <div class="row">
         <div class="col-sm-10 col-sm-offset-1 col-md-6">
 
@@ -46,9 +36,7 @@ layout: default
 
           <div class="addthis_sharing_toolbox"></div>
 
-          <hr/>
-
-          <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="5"></div>
+          {% include fb-comments.html %}
 
           <hr class="visible-xs visible-sm"/>
         </div>

@@ -121,12 +121,12 @@ header {
  * ----------- */
 
 .post {
-  font-size: 20px;
-  article {
-    padding: 50px 0 20px;
-    p {
-      font-size: 20px;
-    }
+  font-size: 19px;
+  .container-content {
+    margin-top: 0;
+  }
+  p {
+    font-size: 19px;
   }
 }
 
