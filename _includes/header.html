@@ -100,7 +100,7 @@
           {% if post.publisher %}
           {% assign publisher = site.data.publishers[post.publisher] %}
           {% assign country = site.data.countries[publisher.country] %}
-          <li><a href="{{ site.baseurl }}{{ post.url }}">
+          <li><a href="{{ site.baseurl }}{{ post.url }}" alt="{{ post.title }}">
             {{ country.name }}
           </a></li>
           {% endif %}
