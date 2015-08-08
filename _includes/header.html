@@ -58,10 +58,14 @@
           <li class="dropdown visible-xs">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">stories <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              {% for story in site.data.stories %}
-              <li><a href="{{ site.baseurl }}{{ story.url }}">
-                {{ story.country }}
+              {% for post in site.posts %}
+              {% if post.publisher %}
+              {% assign publisher = site.data.publishers[post.publisher] %}
+              {% assign country = site.data.countries[publisher.country] %}
+              <li><a href="{{ site.baseurl }}{{ post.url }}" alt="{{ post.title }}">
+                {{ country.name }}
               </a></li>
+              {% endif %}
               {% endfor %}
             </ul>
           </li>

@@ -14,7 +14,10 @@ layout: default
               <h1>{{ page.title }}</h1>
               <br/> <br/>
 
-              <p><em>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</em></p>
+              {% assign publisher = site.data.publishers[page.publisher] %}
+              {% assign country = site.data.countries[publisher.country] %}
+
+              <p><em>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}{% if page.publisher %} • <a href="{{ page.original_url }}" target="_blank">{{ publisher.name }}, {{ country.name }}</a>{% endif %}</em></p>
             </div>
           </div>
         </div>

@@ -107,6 +107,17 @@ header {
         }
       }
 
+      p {
+        a {
+          color: #ffffff;
+          border-bottom: 1px solid rgba(255,255,255, 0.5);
+          &:hover {
+            border-bottom: 1px solid rgba(255,255,255, 1.0);
+            text-decoration: none;
+          }
+        }
+      }
+
       button {
         border-radius: 9999px;
         padding: 15px 35px;
