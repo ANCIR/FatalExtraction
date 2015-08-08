@@ -96,10 +96,12 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
         <ul class="nav navbar-nav">
-          {% for story in site.data.stories %}
-          <li><a href="{{ site.baseurl }}{{ story.url }}">
-            {{ story.country }}
+          {% for post in site.posts %}
+          {% if post.country %}
+          <li><a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.country }}
           </a></li>
+          {% endif %}
           {% endfor %}
         </ul>
       </div><!-- /.navbar-collapse -->

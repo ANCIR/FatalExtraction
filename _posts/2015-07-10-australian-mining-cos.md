@@ -53,7 +53,7 @@ Without Anvil’s transport and assistance, said Feeney, during a break in meeti
 <img src="/img/australian_mining_cos/drc-anvil-sign.jpg" class="img-responsive"/>  
 *Anvil Mining claims it was ordered by DRC authorities to assist the military. Photo: Eleanor Bell*
 
-### Australian companies’ footprint
+#### Australian companies’ footprint
 
 Anvil Mining was a pioneer, leading the West’s re-entry into a country reeling from a coup d’état, a three-year civil war and a presidential assassination. The company had come to the DRC in 1995 with high hopes. “Cashed up with a million dollars in the bank, we set off to Africa to see what we could do,” recalled Turner during a 2011 industry luncheon.
 
@@ -96,7 +96,7 @@ Exact comparisons are difficult, and factors such as the type of mineral produce
 
 Thousands of people, including village chiefs and tribal headwomen, elected representatives, former employees, traditional healers, human rights defenders and government agencies have taken Australian companies, their subsidiaries and their contractors to court across Africa for alleged negligence, unfair dismissal and eviction, illegal licensing or pollution, according to court submissions and judgments unearthed from more than a dozen countries. 
 
-### Home and away
+#### Home and away
 
 In many ways, the two mineral-rich continents are odd bedfellows, with little in common beyond some business and mining ties and a passion for cricket and rugby.
 
@@ -118,7 +118,7 @@ Africa, on the contrary, offers “low costs of production,” said John Welborn
 
 Mirroring corporate enthusiasm, consecutive Australian governments have cheered Australia’s entry into Africa’s mining market that boomed over the last ten years. Of the companies recently active in Africa, nearly 60 percent have listed since 2004.
 
-### “What I am going to do with that?” 
+#### “What I am going to do with that?”
 South of Kilwa, in the strip-thin nation of Malawi, another Australian mining pioneer has faced accusations from communities and former mine workers for years. 
 
 <img src="/img/australian_mining_cos/sichinga.jpg" class="img-responsive"/>  
@@ -183,7 +183,7 @@ The company does not have a troubled industrial relations history, Paladin told 
 <img src="/img/australian_mining_cos/aquarius-and-ikemelang.jpg" class="img-responsive"/>  
 *A platinum mine in northern South Africa seen from a nearby informal settlement. Photo: Eleanor Bell*
 
-### Contractors: cost-cutting with a risk
+#### Contractors: cost-cutting with a risk
 
 Malawi isn’t the only place where contract workers lost their lives. 
 
@@ -228,7 +228,7 @@ The company changed its contractor employment model in 2012, explaining the deci
 
 “Today, our use of contractors is in line with South African industry norms.”
 
-### The uncounted
+#### The uncounted
 
 Australian companies tell the ASX when a worker dies at a mine the company owns or operates. Any major event or accident, from a strike to a sludge spill, is also reported if a “reasonable person” may think that the company’s value could be affected by costly investigations, production freezes or compensation pay-outs, according to ASX rules.
 
@@ -295,7 +295,7 @@ Since then, Australian companies have improved, and large mining companies are o
 
 “What happens is that everything keeps getting swept under the rug,” says Nolan, “and you have the opportunity for companies to just say, ‘That’s not our business. Yes, this is our mine and it would never have happened but for the mine being there, but, still, we’re not responsible.’”
 
-### Last chance
+#### Last chance
 
 Three years after the Kilwa massacre, Colonel Ademar, a handful of soldiers and three Anvil managers faced a Congolese military tribunal. From behind white table cloths on a raised stage, judges addressed the accused below who sat on blue plastic chairs. 
 
