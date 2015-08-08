@@ -49,6 +49,10 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<script src="{{ '/js/jquery.tweetHighlighted.js' | prepend: site.baseurl }}"></script>
+
+
 <script src="{{ '/js/bootstrap.fancyfixedscrollnav.js' | prepend: site.baseurl }}"></script>
 <script src="{{ '/js/bootstrap.twonavs.js' | prepend: site.baseurl }}"></script>
 
@@ -58,6 +62,23 @@
   (function ($) {
     $(document).ready(function () {
       $('.col-inner').matchHeight();
+
+      $('body').tweetHighlighted({
+        // html node to use as the 'Tweet' button
+        node: '<a href="#"><span class="fa fa-twitter"></span></a>',
+        // class attribute to attach to the node
+        cssClass: 'btn btn-info',
+        // minimum length of selected text needed to show the 'Tweet' button
+        minLength: 6,
+        // maximum length of selected text after which the 'Tweet' button is not shown
+        maxLength: 144 * 2,
+        // any extra string to attach to every tweet (mostly used to attach urls)
+        extra: '- ' + document.URL,
+        // twitter 'via' handle (basically appends 'via @twitterhandle' to the tweet)
+        via: 'AfricanCIR',
+        // arguments to pass to the window.open() function
+        popupArgs: 'width=600,height=600,toolbar=0,location=0'
+      });
     });
   }(jQuery));
 
