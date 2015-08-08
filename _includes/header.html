@@ -97,9 +97,11 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
         <ul class="nav navbar-nav">
           {% for post in site.posts %}
-          {% if post.country %}
+          {% if post.publisher %}
+          {% assign publisher = site.data.publishers[post.publisher] %}
+          {% assign country = site.data.countries[publisher.country] %}
           <li><a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.country }}
+            {{ country.name }}
           </a></li>
           {% endif %}
           {% endfor %}

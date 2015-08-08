@@ -2,8 +2,8 @@
 layout: post
 title: "Inside Discovery Metals’ troubled Botswana stay"
 
-author: Mbongeni Mguni, Mmegi
-country: Botswana
+author: Mbongeni Mguni
+publisher: mmegi
 
 masthead_pic: /img/inside-discovery-metals-troubled-botswana-stay/pic_1.jpg
 home_pic: /img/inside-discovery-metals-troubled-botswana-stay/pic_1_home.jpg
