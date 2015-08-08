@@ -5,11 +5,9 @@ title: "Toliara Sands – Du développement à la mauvaise gouvernance"
 author: Riana Randrianarisoa
 publisher: lexpress
 
-masthead_pic: /img/bigger-vision-or-nightmare/pic_1.jpg
-home_pic: /img/bigger-vision-or-nightmare/pic_1_home.jpg
+masthead_pic: /img/du-développement-à-la-mauvaise-gouvernance/pic_1.jpg
+home_pic: /img/du-développement-à-la-mauvaise-gouvernance/pic_1_home.jpg
 ---
-
-
 
 **Quatorze ans après le lancement du projet à Ranobe-Toliara II, la société a enfin obtenu son permis environnemental le 23 juin.**
 
