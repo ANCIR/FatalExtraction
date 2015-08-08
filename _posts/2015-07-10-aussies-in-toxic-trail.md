@@ -4,6 +4,7 @@ title: "Aussies in toxic trail"
 
 author: Shinovene Immanuel, Ndanki Kahiurika
 publisher: thenamibian
+original_url: http://www.namibian.com.na/indexx.php?id=28936&page_type=story_detail
 
 masthead_pic: /img/aussies-in-toxic-trail/pic_1.jpg
 home_pic: /img/aussies-in-toxic-trail/pic_1_home.jpg
@@ -18,7 +19,7 @@ That mining in Africa provokes controversy, even violence, is not new. Chinese c
 
 The ICIJ investigation looked at Australia's increasing role in exploring and developing mining projects on the African continent because it has been less examined.
 
-### Troubling
+#### Troubling
 
 What ICIJ uncovered and pieced together suggests a troubling track record on the part of Australian companies in the rush for Africa's minerals, including practices that would be impermissible, even unthinkable, in Australia and other parts of the developed world.
 
@@ -30,7 +31,7 @@ Even though Australian firms run successful mining companies which contribute to
 
 Thousands of people, including village chiefs, former employees, human rights defenders and government agencies across Africa have taken Australian companies, their subsidiaries and their contractors to court for alleged negligence, unfair dismissal and eviction or pollution, according to court submissions and judgements unearthed from more than a dozen countries.
 
-### Langer Heinrich
+#### Langer Heinrich
 
 Examples include Langer Heinrich Uranium mine, which was investigated in 2013 after a leading trade union, the Mine Workers Union (MUN), called for a probe into claims that pregnant employees were required to work in radiation-exposed areas.
 
@@ -62,7 +63,7 @@ LHU said a radiation monitoring programme has been operating for some time to de
 
 “This monitoring programme also generates data for the annual radiation report, enabling LHU to meet its reporting obligations in a timely manner,” she said.
 
-### Craton Mining
+#### Craton Mining
 
 Exploration company Craton Mining and Exploration is a subsidiary of Australian-based International Base Metals. Last year, Craton received a 20-year mining licence to explore the proposed Mitiomire copper mine 140km north-east of Namibia's capital city Windhoek.
 
@@ -74,7 +75,7 @@ Craton Mining's country representative Karl Hartmann said they held public meeti
 
 Hartmann said the proposed mining methods have a relatively low impact on the environment and, together with mitigating measures, the aim is to minimise the effect on the daily lives of the local community.
 
-### Rössing
+#### Rössing
 
 Rio Tinto owns Rössing Uranium Mine. An investigation found that some employees who worked at Rössing in the 1970s are dying of cancer.
 
@@ -94,7 +95,7 @@ Duvenhage said safety remains their priority.
 
 “Our goal remains zero harm- the solid establishment and maintenance of an illness and injury-free workplace, where everyone goes home safely each day,” he said.
 
-### Nomads Threatened
+#### Nomads Threatened
 
 Australian company Deep Yellow Limited (DYL) has been in the news for environment - related concerns in their development of the Aussinanis uranium project.
 
@@ -108,7 +109,7 @@ DYL's operations in Namibia are run by a subsidiary, Reptile Uranium Namibia. It
 
 He said the community was consulted prior to exploration. “Relations with both Gobabeb and the Topnaar community remains amiable and transparent,” he said.
 
-### Numbers
+#### Numbers
 
 According to accessible records, more than 380 people have died in on-site accidents or off-site skirmishes linked to Australian Securities Exchange-listed mining companies since the beginning of 2004.
 

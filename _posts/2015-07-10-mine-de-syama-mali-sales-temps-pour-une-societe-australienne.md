@@ -4,6 +4,7 @@ title: "Mine de SYAMA (Mali) : Sales temps pour une société australienne"
 
 author: Riana Randrianarisoa
 publisher: depechesdumali
+orginal_url: http://www.depechesdumali.com/toutes-les-depeches/9505-mine-de-syama-mali-sales-temps-pour-une-societe-australienne.html
 
 masthead_pic: /img/mine-de-syama-mali-sales-temps-pour-une-societe-australienne/pic_1.jpg
 home_pic: /img/mine-de-syama-mali-sales-temps-pour-une-societe-australienne/pic_1_home.jpg
@@ -13,7 +14,7 @@ home_pic: /img/mine-de-syama-mali-sales-temps-pour-une-societe-australienne/pic_
 
 La Compagnie australienne Resolute Mining Limited a pris les rennes de la Somisy - la Société minière de Syama - à partir de 2003. Depuis, dans ce village de la commune de  Fourou, située à 400 km au sud de Bamako, à proximité de la frontière avec la Côte d’Ivoire, l’or et la pauvreté riment ensemble. Le contraste saute aux yeux : d’un côté, la mine, d’où la société australienne a extrait plus de 165 000 onces d’or en 2014, et son imposant circuit de concassage surplombant le lac ; de l’autre, une population, qui semble n’en avoir touché aucun dividende. À Syama, quatre personnes sur cinq disposent de moins de 300 francs CFA par jour pour vivre — à peine 45 centimes d’euro. Les communautés, tout comme les employés maliens, ne bénéficient guère de la politique de surexploitation dans la mine. Ce scénario saurait-il continuer pendant encore une décennie ? L’exploitation est prévue pour durer jusqu’en 2024, date à laquelle l’australienne Resolute devrait plier bagages.
 
-### Un groupe électrogène pour l’hôpital et puis c’est fini ?
+#### Un groupe électrogène pour l’hôpital et puis c’est fini ?
 
 En ce sens, la Somisy se distingue des autres sociétés minières travaillant dans le pays. Alors que celles-ci se sont engagées à faire des investissements directs au profit des populations riveraines, la Somisy préfère passer par le canal de la mairie de Fourou. Une municipalité déjà montrée du doigt par les habitants. En effet, ici une personne sur dix croit dur comme fer que les autorités municipales et les responsables de la mine fument la même pipe. Selon Moussa Coulibaly, un représentant de la jeunesse de Fourou, appuyé par le porte-parole du chef de village, « des pots de vin sont versés aux élus afin de permettre à la mine de se dérober de ses engagements ». « Hormis la fourniture d’un groupe électrogène à l’hôpital de Fourou, la Somisy n’a posé aucune action tangible au bénéfice des populations », s’indigne M. Coulibaly, par ailleurs point focal de plusieurs médias maliens.
 
@@ -21,7 +22,7 @@ Ainsi, en dépit de toute cette activité minière, la localité reste privée d
 
 À son arrivée la compagnie australienne a pourtant hérité d’une situation relativement calme.
 
-### Financements controversés, recrutements tronqués
+#### Financements controversés, recrutements tronqués
 
 Selon un employé de la mine qui tient à garder l’anonymat, Somisy verserait annuellement plusieurs dizaines de millions de francs CFA à la commune de Fourou dans le cadre de l’appui au développement communautaire. Faux, rétorque le maire, Salif Diarra, qui assure pour sa part que la Somisy ne verse aucun centime dans les caisses de la municipalité. Sans pour autant apporter de chiffre,  l’élu indique tout au moins que la Somisy contribue tout de même à la réalisation de certaines activités du Programme de développement économique, social et culturel (PDESC). « La mine nous aide beaucoup ! Certaines collectivités du Mali n’ont pas ça. »
 
@@ -37,11 +38,11 @@ Dans sa quête d’une nouvelle mine, la Somisy s’est heurtée en mai 2014 à 
 
 Faut-il souligner que l’exploitation d’or à Syama soulève des problèmes environnementaux, liés à l’utilisation de produits toxiques comme le cyanure pour le traitement de l’or. À cela s’ajoutent le bruit assourdissant des machines, la production de déchets hautement toxiques, la pollution de l’air au cours de l’excavation et du transport, la pollution de l’eau, la déforestation, et la destruction des espèces sensibles et des terres cultivables…
 
-### Une présence qui aurait pu apporter beaucoup mieux, mais hélas…
+#### Une présence qui aurait pu apporter beaucoup mieux, mais hélas…
 
 L’État malien pour sa part ne récolte que des miettes. Le Mali est pourtant le troisième pays producteur aurifère d’Afrique, avec une production annuelle variant entre 40 à 45 tonnes (chiffres officiels). Mais les contrats miniers signés avec les sociétés étrangères leur laissent quasiment tous les bénéfices. L’actuel ministre des Mines, Boubou Cissé, a confié devoir s’atteler au chantier de la révision de ces contrats léonins. « Le Mali offre des avantages faramineux aux sociétés minières étrangères en terme de fiscalité », indique le ministre. Et d’ajouter que ces dernières sont exemptes de la TVA et de la Taxe sur les prestations de service (TPS) pendant les cinq premières années de leur exploitation. M. Cissé dit vouloir faire en sorte que l’exploitation minière profite mieux aux Maliens. Il y a du travail : quand bien même l’or représente pour le pays 15 % du produit intérieur brut, et 70 % des recettes d’exportation, l’industrie extractive ne fournit que 20 % du budget national.
 
-### Révolte et répression
+#### Révolte et répression
 
 On se rappelle le vaste soulèvement, le 11 novembre 2012, des communautés locales de Syama. D’une ampleur jamais connue par la mine, cette révolte a paralysé le travail pendant plusieurs heures. Habitants de Fourou, Billa, Syama, Tiembleni, Banasso, Piama, N’golopéné… tous étaient sortis ce jour pour crier leur colère.Les forces de l’ordre ont ouvert le feu. Bilan : deux personnes tuées par balles, et quatorze blessées. Les souvenirs sont encore vivaces ; on évoque les victimes : M. Sogodogo de la famille de l’Imam du village de Banasso , et M. Dagnoko, le fils du chef de village de Balla. Leur seul crime, c’est d’avoir manifesté contre la politique « injuste et arbitraire » de la mine.
 
@@ -53,7 +54,7 @@ Ni le directeur général de Somisy, Adama Bagayoko, ni le responsable du dével
 
 À la question de savoir s’il existe un véritable cadre de concertation entre les responsables de la Mairie et la direction de Somisy, dans le cadre de la politique de développement communautaire, le directeur des ressources humaines a répondu par l’affirmatif.
 
-### Antécédents judiciaires
+#### Antécédents judiciaires
 
 Suite aux événements de 2012, la Commission Mine de l’Assemblée Nationale du Mali (ancienne législature) s’était déplacée sur le site de Syama. La visite avait été couronnée par la formulation d’un chapelet de recommandations pour une sortie de crise. Mais il semble que celles-ci ont été rangées dans les tiroirs. Car, bien curieusement, l’actuelle Commission Mine, issue des législatives de 2013, prétend ne pas être au courant du dossier. Son président Bakary Fomba, député élu à Dioila, affirme ne pas être au parfum de l’affaire Syama. Toutefois, il nie l’existence d’un rapport parlementaire dans ce sens.
 

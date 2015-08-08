@@ -4,6 +4,7 @@ title: "Inside Discovery Metals’ troubled Botswana stay"
 
 author: Mbongeni Mguni
 publisher: mmegi
+original_url: http://www.mmegi.bw/index.php?aid=52508&dir=2015/july/10
 
 masthead_pic: /img/inside-discovery-metals-troubled-botswana-stay/pic_1.jpg
 home_pic: /img/inside-discovery-metals-troubled-botswana-stay/pic_1_home.jpg

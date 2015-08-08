@@ -4,6 +4,7 @@ title: "The painful plight of a landless farmer"
 
 author: Ntibinyane Ntibinyane
 publisher: mmegi
+original_url: http://www.mmegi.bw/index.php?aid=52509&dir=2015/july/10
 
 masthead_pic: /img/the-painful-plight-of-a-landless-farmer/pic_1.jpg
 home_pic: /img/the-painful-plight-of-a-landless-farmer/pic_1_home.jpg

@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "The painful plight of a landless farmer"
+title: "Paladin's uranium waste ‘wars’, Malawi villagers up in arms"
 
 author: Collins Mtika
 publisher: nyasatimes
+original_url: http://www.nyasatimes.com/2015/07/10/paladins-uranium-waste-wars-malawi-villagers-up-in-arms/
 
 masthead_pic: /img/paladins-uranium-waste-wars-malawi-villagers-up-in-arms/pic_1.jpg
 home_pic: /img/paladins-uranium-waste-wars-malawi-villagers-up-in-arms/pic_1_home.jpg

@@ -4,6 +4,7 @@ title: "Bigger vision or nightmare"
 
 author: Ntibinyane Ntibinyane
 publisher: mmegi
+original_url: http://www.mmegi.bw/index.php?aid=52510&dir=2015/july/10
 
 masthead_pic: /img/bigger-vision-or-nightmare/pic_1.jpg
 home_pic: /img/bigger-vision-or-nightmare/pic_1_home.jpg
@@ -127,4 +128,4 @@ In February this Australian company FTI Consulting was appointed administrator o
 
 After this the company’s board of directors considered the company insolvent and appointed administrators. According to Stephan Dopking of FTI Consulting since the company (FTI Consulting) had no role in the operations of the company prior to its appointment as administrator on February 27th it is unable to answer questions about DML’s previous operations.
 
-(Additional reporting by ***Boniface Keakabetse***)
+(Additional reporting by **Boniface Keakabetse**)
