@@ -9,7 +9,7 @@ masthead_pic: /img/conflit-de-travail-à-gryphon-minerals/pic_1.jpg
 home_pic: /img/conflit-de-travail-à-gryphon-minerals/pic_1_home.jpg
 ---
 
-<span class="drop-cap">L</span>La mine de Banfora promettait d’être un gisement de travail et de prospérité. En 2012, la société Gryphon Minerals assurait vouloir créer «97 emplois permanents, 200 à 600 emplois temporaires», sur le site de Niankorodougou, où elle venait de prouver l’existence d’importantes réserves aurifères.
+<span class="drop-cap">L</span>a mine de Banfora promettait d’être un gisement de travail et de prospérité. En 2012, la société Gryphon Minerals assurait vouloir créer «97 emplois permanents, 200 à 600 emplois temporaires», sur le site de Niankorodougou, où elle venait de prouver l’existence d’importantes réserves aurifères.
 
 Visitant cette localité située dans la région des Cascades (Sud-Ouest), à proximité de la frontière ivoirienne, le ministre en charge des Mines, Salif Kaboré, se réjouissait alors de la création de la neuvième mine d’or du pays. Il en profitait pour adresser une mise en garde à la société australienne : «Il faut que les sociétés minières travaillent en parfaite intelligence avec les populations riveraines. C’est un cri du cœur que je lance.» Cf. «Exploitation minière : L’or brillera bientôt à Niankorodougou», Le Faso.net, 19 février 2012.
 
