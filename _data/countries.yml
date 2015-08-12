@@ -10,3 +10,11 @@ namibia:
   name: Namibia
 tanzania:
   name: Tanzania
+burkinafaso:
+  name: Burkina Faso
+cotedivoire:
+  name: Cote d'Ivoire
+ghana:
+  name: Ghana
+southafrica:
+  name: South Africa

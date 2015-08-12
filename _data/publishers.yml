@@ -16,4 +16,15 @@ thenamibian:
 dailynews:
   country: tanzania
   name: Daily News
-
+l-economiste-du-faso:
+  country: burkinafaso
+  name: L'Economiste du Faso
+abidjan-live-news:
+  country: cotedivoire
+  name: Abidjan Live News
+citi-fm:
+  country: ghana
+  name: CitiFM
+financial-mail:
+  country: southafrica
+  name: Financial Mail
