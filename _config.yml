@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Fatal Extraction is an international collaboration combining corporate data and extensive field reporting to reveal deaths, injuries and community conflicts linked to Australian mining companies across Africa. Australia has more mining companies in Africa than other mining giants such as Canada and China.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: http://fatalextraction.investigativecenters.org
+url: https://fatalextraction.investigativecenters.org
 enforce_ssl: fatalextraction.investigativecenters.org
 
 twitter_username: AfricanCIR
